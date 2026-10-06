@@ -1,0 +1,16 @@
+{
+  "name": "apex-racing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test test/*.test.js",
+    "export": "npm run build && node scripts/export-game.mjs"
+  },
+  "devDependencies": {
+    "vite": "7.1.12"
+  }
+}
